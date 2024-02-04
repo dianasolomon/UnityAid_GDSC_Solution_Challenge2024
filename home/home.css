@@ -180,8 +180,8 @@ main{
 }
 
 .main-div2-image{
-    width: 600px;
-    height: 600px;
+    width: 35%;
+    height: 85%;
     
     border-radius: 50%;
     border: 10px solid var(--light-blue-shade);
