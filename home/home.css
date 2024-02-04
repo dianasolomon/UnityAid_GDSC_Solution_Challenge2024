@@ -1,5 +1,5 @@
 :root{
-    --dark-blue-shade:rgb(2, 62, 108) ;
+    --dark-blue-shade:rgb(2, 67, 108) ;
     --light-blue-shade: rgb(220, 238, 254);
     --dark-text-color: navy;
     --hover-color: rgb(40, 129, 154);
@@ -241,7 +241,7 @@ main{
     position: relative;
     width: 90%;
     display: flex;
-    justify-content: left;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -253,10 +253,15 @@ main{
     color: var(--dark-blue-shade);
     z-index: 22;
 }
+
+.main-div3-container a{
+    width: 25%;
+}
 .ngo{
-    margin: 100px;
-    width:400px;
-    height: 400px;
+    border: 2px solid var(--dark-blue-shade);
+    margin-top: 100px;
+    width: 100%;
+    min-height: 400px;
     background-color: var(--dark-blue-shade);
     display: flex;
     flex-direction: column;
@@ -273,10 +278,11 @@ main{
 .ngo-description{
     text-align: center;
     font-size: 1.6rem;
+    padding: 5px;
 }
 
 .ngo1-logo{
-
+    
     background-image: url(../resources/UNHCR-logo.png);
     width: 100%;
     min-height: 100px;
@@ -285,18 +291,19 @@ main{
 }
 
 .ngo2-logo{
-    background-image: url(../resources/women-for-women1.png);
+    background-image: url(../resources/hilton-logo.png);
     width: 100%;
     min-height: 100px;
-    background-position: left;
+    background-position: center;
     background-size: cover;
 }
 .ngo3-logo{
-    background-image: url(../resources/prem-rawat-foundation-logo.png);
+    background-image: url(../resources/karam-logo.png);
     width: 100%;
     min-height: 100px;
-    background-position: left;
+    background-position: center;
     background-size: cover;
+    border: 1px solid white;
 }
 
 footer{
@@ -307,4 +314,22 @@ footer{
     background-color: var(--dark-blue-shade);
     min-height: 200px;
 
+}
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.footer-icons{
+    color: white;
+    font-size: var(--largest-font-size);
+}
+.footer-nav-items a{
+    color: white;
+    font-size: var(--large-font-size);
+    margin-left: 2rem;
 }
