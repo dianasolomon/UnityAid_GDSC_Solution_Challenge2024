@@ -3,7 +3,9 @@
     --light-blue-shade: rgb(220, 238, 254);
     --dark-text-color: navy;
     --hover-color: rgb(40, 129, 154);
-    
+    --largest-breakpoint : 1500px;
+    --medium-breakpoint: 900px;
+    --smallest-breakpoint: 400px;
     --pure-white-shade: #FFFFFF;
     --largest-font-size: 2.5rem;
     --medium-font-size: 1.5rem;
@@ -11,6 +13,11 @@
     --large-font-size: 2rem;
    
 }
+
+html {
+    font-size: 95%;
+}
+
 
 *{
     margin: 0;
@@ -115,8 +122,8 @@ main{
     background-image: url(../resources/white-child-in-cold.png);
     background-position:left;
     background-size: cover;
-    width: 600px;
-    height: 600px;
+    width: 550px;
+    height: 550px;
     border-radius: 50%;
     
 }
@@ -171,19 +178,20 @@ main{
     width: 100%;
     display: flex;
     justify-content: center;
+    min-height: 650px;
 }
 
 .main-div2-container{
     display: flex;
     justify-content:space-between;
-    min-height: 650px;
+    
     align-items: center;
 
 }
 
 .main-div2-image{
-    width: 35%;
-    height: 85%;
+    width: 520px;
+    height: 520px;
     
     border-radius: 50%;
     border: 10px solid var(--light-blue-shade);
@@ -194,7 +202,7 @@ main{
 
 .main-div2-text{
     color: var(--dark-blue-shade);
-    max-width: 60%;
+    width: 60%;
 }
 
 .main-div2-text h1{
@@ -236,7 +244,7 @@ main{
     background-color: var(--light-blue-shade);
     width: 100%;
     justify-content: center;
-    min-height: 600px;
+    min-height: 700px;
 }
 
 .main-div3-container{
@@ -258,13 +266,14 @@ main{
 
 .main-div3-container a{
     width: 25%;
-    margin-top: 100px;
+    min-height: 400px;
+    
 }
 .ngo{
     border: 2px solid var(--dark-blue-shade);
-   
-    width: 100%;
     min-height: 400px;
+    width: 100%;
+    
     background-color: var(--dark-blue-shade);
     display: flex;
     flex-direction: column;
@@ -335,4 +344,76 @@ footer{
     color: white;
     font-size: var(--large-font-size);
     margin-left: 2rem;
+}
+
+@media (width <= 1500px) and (width > 1000px){
+    html{
+        font-size: 67%;
+    }
+    .main-div1{
+        min-height: 500px;
+    }
+    .main-div1-image{
+        width: 450px;
+        height: 450px;
+    }
+    .main-div2{
+        min-height: 500px;
+    }
+    .main-div2-image{
+        width: 420px;
+        height: 420px;
+
+    }
+    .main-div2-text{
+        width: 50%;
+    }
+    .main-div3-container a{
+        width: 30%;
+    }
+    .ngo{
+        min-height: 350px;
+    }
+}
+@media (width <= 1000px) and (width > 750px){
+    html{
+        font-size: 67%;
+    }
+    .main-div1{
+        min-height: 400px;
+    }
+    .header-nav-list, .donate-btn-header{
+        display: none;
+    }
+    .main-div1-image{
+        margin: 10px;
+        width: 380px;
+        height: 380px;
+    }
+    .main-div2{
+        min-height: 400px;
+    }
+    .main-div2-image{
+        width: 350px;
+        height: 350px;
+
+    }
+    .main-div2-text{
+        width: 50%;
+    }
+    .main-div3{
+        min-height: 600px;
+    }
+    
+    .main-div3-container a{
+        width: 45%;
+        
+        
+    }
+    .ngo{
+        min-height: 350px;
+    }
+    .ngo3-a{
+        display: none;
+    }
 }
