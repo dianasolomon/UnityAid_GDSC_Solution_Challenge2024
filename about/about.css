@@ -1,0 +1,135 @@
+:root{
+    --dark-blue-shade:rgb(2, 67, 108) ;
+    --light-blue-shade: rgb(220, 238, 254);
+    --dark-text-color: navy;
+    --hover-color: rgb(40, 129, 154);
+    --largest-breakpoint : 1500px;
+    --medium-breakpoint: 900px;
+    --smallest-breakpoint: 400px;
+    --pure-white-shade: #FFFFFF;
+    --largest-font-size: 2.5rem;
+    --medium-font-size: 1.5rem;
+    --small-font-size: 1rem;
+    --large-font-size: 2rem;
+   
+}
+html {
+    font-size: 95%;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: serif;
+    list-style: none;
+    text-decoration: none;
+    
+}
+body{
+    width: 100%;
+}
+
+header{
+    
+    background-color: var(--dark-blue-shade);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-bottom: 2px solid var(--light-blue-shade);
+}
+.container{
+    width: 90%;
+}
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo h1{
+    color: var(--pure-white-shade);
+    font-size: var(--largest-font-size);
+}
+
+.header-logo{
+    display: flex;
+    align-items: center;
+}
+
+.header-nav-list{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.header-nav-list a{
+    font-size: var(--large-font-size);
+    font-family: 500;
+    color: var(--pure-white-shade);
+    position: relative;
+}
+
+
+.header-nav-list a::after{
+    content: "";
+    width: 0;
+    height: 3px;
+    background-color: white;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s ease;
+}
+.header-nav-list a:hover::after{
+    width: 100%;
+}
+.donate-btn-header{
+    background-color: transparent;
+    font-size: 1.6rem;
+    padding: 0.5em;
+    border-radius: 30px;
+    border: 2px solid var(--pure-white-shade);
+    color: var(--pure-white-shade);
+}
+.donate-btn-header:hover{
+    background-color: var(--hover-color);
+}
+/*main*/
+main{
+    min-height: 900px;
+}
+
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--dark-blue-shade);
+    min-height: 200px;
+
+}
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.footer-icons{
+    color: white;
+    font-size: var(--largest-font-size);
+}
+.footer-nav-items a{
+    color: white;
+    font-size: var(--large-font-size);
+    margin-left: 2rem;
+}
