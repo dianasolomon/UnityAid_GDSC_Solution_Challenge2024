@@ -25,9 +25,9 @@ body{
     width: 100%;
     min-height: 1500px;
 }
-main {
-    padding-top: 120px; /* Adjust the value according to the height of your fixed header */
-  }
+/* main {
+    padding-top: 100px; 
+} */
 header{
     background-color: var(--dark-blue-shade);
     display: flex;
@@ -39,14 +39,14 @@ header{
     left: 0;
     width: 100%;
     border-bottom: 2px solid var(--light-blue-shade);
-    z-index: 1000;
+    z-index: 2;
 }
 .container{
     width: 90%;
 }
 .header-container{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 .logo h1{
@@ -95,6 +95,11 @@ header{
 }
 .donate-btn-header:hover{
     background-color: var(--hover-color);
+}
+
+main{
+    padding-top: 95px;
+    width: 100%;
 }
 .main1{
     padding-top: 95px;
