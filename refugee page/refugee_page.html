@@ -6,6 +6,7 @@
     <title>Refugee Page</title>
     <link rel="stylesheet" href="refugee_page.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="refugee_page.js" defer></script>
 </head>
 <body>
     <header>
@@ -24,14 +25,44 @@
     <main>
         <div class="main-div1">
             <div class="container main-div1-container">
-                <form action="#">
-                    <label for="country">Select the Country You Want To Learn About</label>
+                <form action="#" class="input-form">
+                    <label for="country" class="country-selection">Select the Country You Want To Learn About</label>
+                    <select name="country" id="country">
+                        <option value="">Select a country</option>
+                        <option value="germany">Germany</option>
+                        <option value="united-states">United States</option>
+                    </select>
+                    <br>
+                    <label for="language">Select The Language You're Comfortable In</label>
+                    <select name="language" id="language">
+                        <option value="">Select a language</option>
+                        <option value="arabic">Arabic</option>
+                        <option value="ukrainian">Ukrainian</option>
+                        <option value="afghan">Afghan</option>
+                    </select>
                 </form>
+                <div class="image-main-div1"></div>
             </div>
         </div>
         <div class="main-div2">
             <div class="container main-div2-container">
-                
+                <div class="germany-chosen hidden">
+                    <ul class="list-of-topics">
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                        
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                    </ul>
+
+                </div>
             </div>
         </div>
         <div class="main-div3">

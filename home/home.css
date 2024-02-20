@@ -15,7 +15,7 @@
 }
 
 html {
-    font-size: 95%;
+    font-size: 67%;
 }
 
 
@@ -356,6 +356,7 @@ footer{
     .main-div1-image{
         width: 450px;
         height: 450px;
+        margin-left: 10px;
     }
     .main-div2{
         min-height: 500px;
@@ -396,7 +397,7 @@ footer{
     .main-div2-image{
         width: 350px;
         height: 350px;
-
+        margin-right: 10px;
     }
     .main-div2-text{
         width: 50%;
