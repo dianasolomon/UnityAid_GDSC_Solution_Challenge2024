@@ -11,6 +11,9 @@
     --large-font-size: 2rem;
    
 }
+html{
+    font-size: 67%;
+}
 
 *{
     margin: 0;
@@ -33,7 +36,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px 0;
+    padding: 15px 0;
     position: fixed;
     z-index: 2;
     top: 0;
@@ -97,7 +100,74 @@ header{
     background-color: var(--hover-color);
 }
 
+main{
+    min-height: 1600px;
+    margin-top: 70px;
+}
+.main-div1{
+    width: 100%;
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
 
+    background-color: var(--light-blue-shade);
+}
+.main-div1-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.image-main-div1{
+    background-image: url(../resources/refugee-women-working.png);
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    border: 3px solid var(--dark-blue-shade);
+}
+.input-form{
+    display: flex;
+    justify-content: space-between;
+    gap: 5rem;
+}
+.input-form label {
+    font-size: var(--medium-font-size);
+    color: var(--dark-text-color);
+    margin-bottom: 5px;
+}
+.input-form-ele{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: center;
+}
+
+.input-form select {
+    padding: 15px 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: var(--medium-font-size);
+    color: var(--dark-text-color);
+}
+.country-selection{
+    font-size: 1rem;
+}
+
+.main-div2{
+    width: 100%;
+    min-height: 800px;
+    display: flex;
+    justify-content: center;
+
+}
+.main-div3{
+    width: 100%;
+    min-height: 800px;
+    background-color: var(--light-blue-shade);
+    display: flex;
+    justify-content: center;
+}
 footer{
     width: 100%;
     display: flex;
@@ -113,32 +183,6 @@ footer{
     justify-content: center;
     align-items: center;
     
-}
-main{
-    min-height: 1600px;
-    margin-top: 100px;
-}
-.main-div1{
-    width: 100%;
-    min-height: 800px;
-    display: flex;
-    justify-content: center;
-
-    background-color: var(--light-blue-shade);
-}
-.main-div2{
-    width: 100%;
-    min-height: 800px;
-    display: flex;
-    justify-content: center;
-
-}
-.main-div3{
-    width: 100%;
-    min-height: 800px;
-    background-color: var(--light-blue-shade);
-    display: flex;
-    justify-content: center;
 }
 
 .footer-icons{
