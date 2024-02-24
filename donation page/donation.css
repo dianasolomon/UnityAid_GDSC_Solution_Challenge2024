@@ -12,6 +12,11 @@
    
 }
 
+
+html {
+    font-size: 67%;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -25,9 +30,15 @@ body{
     width: 100%;
     min-height: 1500px;
 }
+<<<<<<< HEAD
+ main {
+    padding-top: 100px; /* Adjust the value according to the height of your fixed header */
+ } 
+=======
 /* main {
     padding-top: 100px; 
 } */
+>>>>>>> 6d2106fbb4b0cbeac1fa97101fa52f4990e565e5
 header{
     background-color: var(--dark-blue-shade);
     display: flex;

@@ -99,13 +99,13 @@ header{
     padding: 0.5em;
     border-radius: 30px;
     border: 2px solid var(--pure-white-shade);
-    color: var(--pure-white-shade);
+    color: white;
 }
 .donate-btn-header:hover{
     background-color: var(--hover-color);
 }
 main{
-    padding-top: 95px;
+    padding-top: 90px;
     width: 100%;
 }
 
