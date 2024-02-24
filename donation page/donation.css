@@ -287,6 +287,10 @@ h5 p{
     border-radius: 10px;
     cursor: pointer;
 }
+.form-container button:hover {
+    background-color: var(--hover-color);
+    color: var(--pure-white-shade);
+}
 input#don1{
     margin-right: 10px;
 }

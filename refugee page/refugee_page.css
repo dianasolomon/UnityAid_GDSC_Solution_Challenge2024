@@ -125,10 +125,33 @@ main{
     border-radius: 50%;
     border: 3px solid var(--dark-blue-shade);
 }
+.input-form{
+    display: flex;
+    justify-content: space-between;
+    gap: 5rem;
+}
+.input-form label {
+    font-size: var(--medium-font-size);
+    color: var(--dark-text-color);
+    margin-bottom: 5px;
+}
+.input-form-ele{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: center;
+}
 
+.input-form select {
+    padding: 15px 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: var(--medium-font-size);
+    color: var(--dark-text-color);
+}
 .country-selection{
     font-size: 1rem;
-    
 }
 
 .main-div2{
