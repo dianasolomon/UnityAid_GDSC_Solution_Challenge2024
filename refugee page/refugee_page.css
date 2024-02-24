@@ -132,7 +132,7 @@ main{
     border-radius: 50%;
     border: 3px solid var(--dark-blue-shade);
 }
-<<<<<<< HEAD
+
 .input-form label{
     font-size: var(--medium-font-size);
     margin-bottom: 8px;
@@ -156,7 +156,7 @@ main{
 }
 .input-form button:hover {
     background-color: var(--hover-color);
-=======
+}
 .input-form{
     display: flex;
     justify-content: space-between;
@@ -181,7 +181,7 @@ main{
     margin-bottom: 10px;
     font-size: var(--medium-font-size);
     color: var(--dark-text-color);
->>>>>>> 6d2106fbb4b0cbeac1fa97101fa52f4990e565e5
+
 }
 .country-selection{
     font-size: 1rem;
