@@ -132,6 +132,7 @@ main{
     border-radius: 50%;
     border: 3px solid var(--dark-blue-shade);
 }
+<<<<<<< HEAD
 .input-form label{
     font-size: var(--medium-font-size);
     margin-bottom: 8px;
@@ -155,10 +156,35 @@ main{
 }
 .input-form button:hover {
     background-color: var(--hover-color);
+=======
+.input-form{
+    display: flex;
+    justify-content: space-between;
+    gap: 5rem;
+}
+.input-form label {
+    font-size: var(--medium-font-size);
+    color: var(--dark-text-color);
+    margin-bottom: 5px;
+}
+.input-form-ele{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: center;
+}
+
+.input-form select {
+    padding: 15px 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: var(--medium-font-size);
+    color: var(--dark-text-color);
+>>>>>>> 6d2106fbb4b0cbeac1fa97101fa52f4990e565e5
 }
 .country-selection{
     font-size: 1rem;
-    
 }
 
 .main-div2{
