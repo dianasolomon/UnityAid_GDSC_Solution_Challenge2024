@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Refugee Page</title>
+    <link rel="stylesheet" href="kit1_style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+
+<body>
+    <header>
+        <div class = "container header-container">
+            <a href="#" class="header-logo logo"><img src="../resources/heart-in-hands-svgrepo-com.svg" alt="">
+            <h1>UnityAid</h1></a>
+            <ul class="nav-list header-nav-list">
+                <li class="list-items"><a href="../index.html">Home</a></li>
+                <li class="list-items"><a href="../about/about.html">About</a></li>
+                <li class="list-items"><a href="../refugee page/refugee_page.html">Refugee Page</a></li>
+                <li class="list-items"><a href="#">Kit</a></li>
+                <li class="list-items"><a href="">Services</a></li>
+            </ul>
+            <button class="donate-btn-header"><a href="./donation page/donation.html">Donate Now</a></button>
+        </div>
+    </header>
+    <main>
+        <section class="age-selection">
+            <h2>Select an Age Category:</h2>
+            <div class="age-options">
+              <button id="infants" class="btn">For Infants</button>
+              <button id="students"  class="btn">For Students</button>
+              <button id="family" class="btn">For Family</button>
+              <button id="adults" class="btn">For Adults</button>
+              <button id="seniors" class="btn">For Seniors</button>
+            </div>
+          </section>
+        
+          <section class="kit-description">
+            <h2>What to Donate:</h2>
+            <form id="kit-form">
+                <div id="kit-options">
+                    <!-- Item checkboxes will be dynamically added here -->
+                </div>
+                <div id="kit-info">
+                    <!-- Content dynamically loaded based on selection -->
+                </div>
+                <div>Total Price: $<span id="total-price">0.00</span></div>
+                <button type="submit">Donate Kit</button>
+            </form>
+        </section>
+        
+          <section class="form-section">
+            <h2>Personalize Your Kit:</h2>
+            <form id="personalize-form">
+              <label for="name">Your Name:</label>
+              <input type="text" id="name" name="name" required>
+        
+              <label for="message">Add a Message:</label>
+              <textarea id="message" name="message" rows="4" placeholder="Write a personal message"></textarea>
+        
+              <button type="submit">Donate Kit</button>
+            </form>
+          </section>
+        
+          <!-- <footer>
+            <p>&copy; 2024 DIY Project Kits Donation</p>
+          </footer> -->
+        
+          <script src="script.js"></script>
+    </main>
+    <footer>
+        <div class="container footer-container">
+            <div class="icons">
+                <a href="" class="fb-icon footer-icons"><i class="bx bxl-facebook-square"></i></a>
+                <a href="" class="twitter-icon footer-icons"><i class="bx bxl-twitter"></i></a>
+                <a href="" class="insta-icon footer-icons"><i class="bx bxl-instagram"></i></a>
+                <a href="" class="youtube-icon footer-icons"><i class="bx bxl-youtube"></i></a>
+            </div>
+            <div class="footer-nav-items">
+                <a href="../about/about.html">About</a>
+                <a href="">Services</a>
+                <a href="#">Refugee Page</a>
+
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,25 +9,53 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <script src="refugee_page.js" defer></script>
 </head>
+
 <body>
     <header>
         <div class = "container header-container">
-            <a href="../index.html" class="header-logo logo"><img src="../resources/heart-in-hands-svgrepo-com.svg" alt="">
+            <a href="#" class="header-logo logo"><img src="../resources/heart-in-hands-svgrepo-com.svg" alt="">
             <h1>UnityAid</h1></a>
             <ul class="nav-list header-nav-list">
                 <li class="list-items"><a href="../index.html">Home</a></li>
                 <li class="list-items"><a href="../about/about.html">About</a></li>
                 <li class="list-items"><a href="#">Refugee Page</a></li>
+                <li class="list-items"><a href="./kit/kit1.html">Kit</a></li>
                 <li class="list-items"><a href="">Services</a></li>
             </ul>
-            <button class="donate-btn-header">Donate Now</button>
+            <button class="donate-btn-header"><a href="./donation page/donation.html">Donate Now</a></button>
         </div>
     </header>
     <main>
         <div class="main-div1">
             <div class="container main-div1-container">
-                <div class="form">
                 <form action="#" class="input-form">
+
+                    <div class="input-form-ele">
+                        <label for="country" class="country-selection">Select the Country You Want To Learn
+                            About</label>
+                        <select name="country" id="country">
+                            <option value="">Select a country</option>
+                            <option value="germany">Germany</option>
+                            <option value="netherlands">Netherlands</option>
+                        </select>
+                        <br>
+                    </div>
+                    <div class="input-form-ele">
+                        <label for="language">Select The Language You're Comfortable In</label>
+                        <select name="language" id="language">
+                            <option value="">Select a language</option>
+                            <option value="arabic">Arabic</option>
+                            <option value="ukrainian">Ukrainian</option>
+                            <option value="afghan">Afghan</option>
+                        </select>
+                    </div>
+                </form>
+
+                <button class="sbtn">Submit</button>
+            </div>
+            <div class="image-main-div1"></div>
+        </div>
+
 
                     <div class="country">
 
@@ -62,22 +91,32 @@
 
                 <div class="image-main-div1"></div>
             </div>
+
         </div>
         <div class="main-div2">
             <div class="container main-div2-container">
                 <div class="netherlands-chosen hidden">
                     <ul class="list-of-topics">
-                        <li><a href=""></a></li>
-                        <li><a href=""></a></li>
-                        <li><a href=""></a></li>
-                        <li><a href=""></a></li>
-                        <li><a href=""></a></li>
-                        <li><a href=""></a></li>
-                        <li><a href=""></a></li>
-                        <li><a href=""></a></li>
-                        <li><a href=""></a></li>
-                        <li><a href=""></a></li>
-                        <li><a href=""></a></li>
+                        <li><a href="https://www.refugeehelp.nl/en/ukrainian-refugee/109-shelter">Shelter</a></li>
+                        <li><a href="https://www.refugeehelp.nl/en/ukrainian-refugee/120-work">Work</a></li>
+                        <li><a href="https://www.refugeehelp.nl/en/ukrainian-refugee/126-arrival-in-the-netherlands">Arrival
+                                in Netherlands</a></li>
+                        <li><a
+                                href="https://www.refugeehelp.nl/en/ukrainian-refugee/121-transportation-in-the-netherlands">Transportation
+                                in Netherlands</a></li>
+                        <li><a href="https://www.refugeehelp.nl/en/ukrainian-refugee/107-money">Money</a></li>
+                        <li><a href="https://www.refugeehelp.nl/en/ukrainian-refugee/113-healthcare">Healthcare</a></li>
+                        <li><a href="https://www.refugeehelp.nl/en/ukrainian-refugee/112-education">Education</a></li>
+                        <li><a href="https://www.refugeehelp.nl/en/ukrainian-refugee/127-leaving-the-netherlands">Leaving
+                                the Netherlands</a></li>
+                        <li><a
+                                href="https://www.refugeehelp.nl/en/ukrainian-refugee/116-activities-and-getting-to-know-people">Activities
+                                and getting to know people</a></li>
+                        <li><a href="https://www.refugeehelp.nl/en/ukrainian-refugee/117-safety">Safety</a></li>
+                        <li><a href="https://www.refugeehelp.nl/en/ukrainian-refugee/134-life-in-the-netherlands">Life
+                                in the Netherlands</a></li>
+                        <li><a href="https://www.refugeehelp.nl/en/asylum-seeker/123-the-asylum-procedure">The Asylum
+                                Procedure</a></li>
                     </ul>
 
                 </div>
@@ -101,9 +140,10 @@
                 <a href="../about/about.html">About</a>
                 <a href="">Services</a>
                 <a href="#">Refugee Page</a>
-                
+
             </div>
         </div>
     </footer>
 </body>
+
 </html>
