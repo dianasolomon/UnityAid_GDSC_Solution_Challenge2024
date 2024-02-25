@@ -5,7 +5,7 @@ selectedCountry.addEventListener('change', function(){
    let selectedCountryValue  = selectedCountry.value;
    if(selectedCountryValue == 'germany'){
     
-    window.location.href = 'https://www.expatica.com/de/working/employment-law/german-labour-law-and-work-contracts-104474/';
+   
     germanyHiddenList.style.display = "block";
     netherlandHiddenList.style.display = "none";
    }
@@ -13,6 +13,10 @@ selectedCountry.addEventListener('change', function(){
    else if(selectedCountryValue == 'netherlands'){
       germanyHiddenList.style.display = "none";
       netherlandHiddenList.style.display = "block";
+   }
+   else{
+      germanyHiddenList.style.display = "none";
+      netherlandHiddenList.style.display = "none";
    }
    
 })

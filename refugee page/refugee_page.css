@@ -180,8 +180,6 @@ main{
     margin-bottom: 10px;
     font-size: var(--medium-font-size);
     color: var(--dark-text-color);
-
-
 }
 
 .country-selection{
@@ -207,7 +205,6 @@ main{
 .list-of-topics {
     list-style: none;
     padding: 0;
-    display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
   }
@@ -232,7 +229,39 @@ main{
   .list-of-topics li:hover {
     background-color: var(--hover-color);
   }
+  .list-of-topics-germany {
+    list-style: none;
+    padding: 0;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .list-of-topics-germany{
+    display: none;
+  }
   
+  .list-of-topics-germany li {
+    flex-basis: calc(33.33% - 10px); /* 33.33% width for each item with some spacing */
+    margin-bottom: 20px;/* Spacing between items */
+    background-color: var(--light-blue-shade); /* Background color */
+    padding: 30px 15px ;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 2px 4px var(--dark-blue-shade); /* Adding box shadow for depth */
+  }
+  
+  .list-of-topics-germany li a {
+    text-decoration: none;
+    color: var(--dark-text-color);
+    font-size: var(--large-font-size);
+  }
+  
+  /* Hover effect */
+  .list-of-topics-germany li:hover {
+    background-color: var(--hover-color);
+  }
 footer{
     width: 100%;
     display: flex;
@@ -241,7 +270,7 @@ footer{
     background-color: var(--dark-blue-shade);
     min-height: 200px;
 
-}
+} 
 .footer-container{
     display: flex;
     flex-direction: column;
