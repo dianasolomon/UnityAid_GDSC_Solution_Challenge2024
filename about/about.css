@@ -146,7 +146,10 @@ footer{
     font-size: var(--large-font-size);
     margin-left: 2rem;
 }
+<<<<<<< HEAD
+=======
 
+>>>>>>> upstream/main
 
 :root{
     --dark-blue-shade:rgb(2, 67, 108) ;
@@ -262,7 +265,6 @@ footer{
  
   .main-div1-container, .main-div2-container{
     width: 90%;
-    
     font-size: 20px;
     align-items: center;
     margin-bottom: 60px;
@@ -358,7 +360,10 @@ footer{
     font-size: var(--large-font-size);
     margin-left: 2rem;
   }
+<<<<<<< HEAD
+=======
 
+>>>>>>> upstream/main
 :root{
     --dark-blue-shade:rgb(2, 67, 108) ;
     --light-blue-shade: rgb(220, 238, 254);

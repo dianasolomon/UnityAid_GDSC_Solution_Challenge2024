@@ -94,7 +94,7 @@ document.addEventListener('DOMContentLoaded', function() {
     document.getElementById('family').addEventListener('click', function() {
         updateKitOptions('family');
     });
-
+                                                                                                                                        
     document.getElementById('adults').addEventListener('click', function() {
         updateKitOptions('adults');
     });
