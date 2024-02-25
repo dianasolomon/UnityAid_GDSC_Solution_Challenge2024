@@ -25,7 +25,7 @@ html{
 }
 body{
     width: 100%;
-    min-height: 1500px;
+    min-height: 100px;
     
 }
 
@@ -100,103 +100,102 @@ header{
 }
 
 main{
-    min-height: 1600px;
-    margin-top: 70px;
-}
-.main-div1{
-    width: 100%;
-    min-height: 500px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    background-color: var(--light-blue-shade);
-}
-.main-div1-container{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    align-items: center;
-}
-.language,.country {
-    display: flex;
-    gap: 40px;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 auto;
-}
-
-.image-main-div1{
-    background-image: url(../resources/refugee-women-working.png);
-    width: 450px;
-    margin: 40px;
-    height: 450px;
-    border-radius: 50%;
-    border: 3px solid var(--dark-blue-shade);
-}
-.input-form label{
-    font-size: var(--medium-font-size);
-    margin-bottom: 8px;
-    color: var(--dark-blue-shade);
-}
-.input-form select {
-    padding: 10px;
-    margin-bottom: 16px;
-    border: 1px solid var(--dark-blue-shade);
-    border-radius: 4px;
-    font-size: var(--small-font-size);
-}
-.sbtn {
-    background-color: var(--dark-blue-shade);
-    color: var(--pure-white-shade);
-    font-size: var(--medium-font-size);
-    padding: 12px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-.sbtn:hover {
-    background-color: var(--hover-color);
-}
-.input-form{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    gap: 5rem;
-}
-.input-form label {
-    font-size: var(--medium-font-size);
+    margin-top: 80px;
+    font-size: var(--large-font-size);
     color: var(--dark-text-color);
-    margin-bottom: 5px;
-    margin-right: 20px;
 }
 
-.input-form select {
-    padding: 15px 15px;
+h1, h2 {
+    margin-bottom: 10px;
+  }
+  
+  .age-selection {
+    min-height: 20vh;
+    display: flex;
+    gap: 20px;justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--light-blue-shade);
+    margin: 20px auto;
+    text-align: center;
+  }
+  
+  .age-options button {
+    background-color:var(--hover-color);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  .age-options button:hover{
+    background-color: var(--dark-blue-shade);
+  }
+  
+  .kit-description {
+    margin: 20px auto;
+    max-width: 600px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .kit-description h2 {
+    text-align: center;
+  }
+  
+  .kit-description #kit-info {
+    margin-top: 10px;
+  }
+  
+  .form-section {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    background-color: var(--light-blue-shade);
+
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  form input[type="text"], form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    margin-bottom: 10px;
-    font-size: var(--medium-font-size);
-    color: var(--dark-text-color);
-}
-.country-selection{
-    font-size: 1rem;
-}
-
-.main-div2{
-    width: 100%;
-    min-height: 800px;
-    display: flex;
-    justify-content: center;
-
-}
-.main-div3{
-    width: 100%;
-    min-height: 800px;
-    background-color: var(--light-blue-shade);
-    display: flex;
-    justify-content: center;
-}
+  }
+  
+  form textarea {
+    resize: none;
+  }
+  
+  form button {
+    background-color:var(--hover-color);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    margin: 20px auto 0;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  form button:hover{
+    background-color: var(--dark-blue-shade);
+  }
 footer{
     width: 100%;
     display: flex;
