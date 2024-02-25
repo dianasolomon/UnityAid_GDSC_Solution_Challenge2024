@@ -133,6 +133,7 @@ main{
     border-radius: 50%;
     border: 3px solid var(--dark-blue-shade);
 }
+
 .input-form label{
     font-size: var(--medium-font-size);
     margin-bottom: 8px;
@@ -178,7 +179,10 @@ main{
     margin-bottom: 10px;
     font-size: var(--medium-font-size);
     color: var(--dark-text-color);
+
+
 }
+
 .country-selection{
     font-size: 1rem;
 }
@@ -213,6 +217,7 @@ footer{
     align-items: center;
     
 }
+
 
 .footer-icons{
     color: white;
