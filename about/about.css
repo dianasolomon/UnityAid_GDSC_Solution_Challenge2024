@@ -15,9 +15,8 @@
    
 }
 html {
-    font-size: 67%;
+    font-size: 30%;
 }
-
 
 *{
     margin: 0;
@@ -71,13 +70,11 @@ header{
     align-items: center;
 }
 .header-nav-list a{
-    font-size: var(--large-font-size);
+    font-size: var(--small-font-size);
     font-family: 500;
     color: var(--pure-white-shade);
     position: relative;
 }
-
-
 .header-nav-list a::after{
     content: "";
     width: 0;

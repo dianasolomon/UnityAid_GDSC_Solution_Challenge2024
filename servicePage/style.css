@@ -115,7 +115,7 @@ main{
 
 /* Additional Styles */
 .bg-refugee-blue {
-  background-color: rgb(2, 67, 108);
+  background-color: var(--pure-white-shade);
 }
 
 
@@ -141,6 +141,7 @@ main{
   background-color: rgb(2, 67, 108);
 }
 footer{
+  margin-top: 20px;
   width: 100%;
   display: flex;
   justify-content: center;
