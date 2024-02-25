@@ -148,8 +148,9 @@ main{
 .sbtn {
     background-color: var(--dark-blue-shade);
     color: var(--pure-white-shade);
-    font-size: var(--medium-font-size);
+    font-size: var(--large-font-size);
     padding: 12px;
+    margin-top: 20px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
@@ -165,7 +166,7 @@ main{
     gap: 5rem;
 }
 .input-form label {
-    font-size: var(--medium-font-size);
+    font-size: var(--large-font-size);
     color: var(--dark-text-color);
     margin-bottom: 5px;
     margin-right: 20px;
@@ -184,6 +185,7 @@ main{
 }
 
 .main-div2{
+    margin-top: 50px;
     width: 100%;
     min-height: 800px;
     display: flex;
@@ -197,6 +199,36 @@ main{
     display: flex;
     justify-content: center;
 }
+/* Add this CSS to style the list items */
+.list-of-topics {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .list-of-topics li {
+    flex-basis: calc(33.33% - 10px); /* 33.33% width for each item with some spacing */
+    margin-bottom: 20px;/* Spacing between items */
+    background-color: var(--light-blue-shade); /* Background color */
+    padding: 30px 15px ;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 2px 4px var(--dark-blue-shade); /* Adding box shadow for depth */
+  }
+  
+  .list-of-topics li a {
+    text-decoration: none;
+    color: var(--dark-text-color);
+    font-size: var(--large-font-size);
+  }
+  
+  /* Hover effect */
+  .list-of-topics li:hover {
+    background-color: var(--hover-color);
+  }
+  
 footer{
     width: 100%;
     display: flex;

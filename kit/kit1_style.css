@@ -144,12 +144,18 @@ h1, h2 {
     padding: 20px;
     border-radius: 10px;
   }
-  
+  .kit-description h3 {
+    margin-bottom: 20px;
+  }
   .kit-description h2 {
     text-align: center;
   }
   
   .kit-description #kit-info {
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  .kit-description #kit-options {
     margin-top: 10px;
   }
   
@@ -196,6 +202,10 @@ h1, h2 {
   form button:hover{
     background-color: var(--dark-blue-shade);
   }
+  button{
+    font-size: var(--large-font-size);
+  }
+  
 footer{
     width: 100%;
     display: flex;
